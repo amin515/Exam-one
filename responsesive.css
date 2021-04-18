@@ -1,0 +1,565 @@
+
+
+@media all and (max-width:1400px) {
+    .fix{
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media all and (max-width:1200px) {
+    .banner-sec {
+        background-size: contain;
+    }
+    .about-item-text h4::after {
+        content: "";
+        top: 60px;
+        left: 486px;
+        position: absolute;
+        border-style: solid;
+        border-width: 27px 0 10px 13px;
+        border-color: transparent transparent transparent #fcc647;
+        z-index: 1;
+    }
+    .about-item-text h3 {
+        font-size: 27px;
+    }
+    .about-item-text p {
+        font-size: 17px;
+    }
+    .education-lavel {
+        padding: 11px;
+    }
+    .education-image img {
+        height: 100%;
+    }
+}
+.mobile-menu-check{
+    display: none;
+}
+
+.header-right span{
+    display: none;
+}
+
+@media all and (max-width:992px) {
+    .counter-sec {
+        padding: 80px 0;
+        background-image: url("https://i.ibb.co/YZLcnVL/ia-100000041.jpg");
+        background-position: center;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        margin-top: 80px;
+        color: #fff;
+    }
+    .header-right span{
+        display: block;
+    }
+    .banner-text p::after {
+        content: "";
+        right: 58px;
+        position: absolute;
+    }
+    .banner-text p::before {
+        content: "";
+        left: 57px;
+        position: absolute;
+    }
+    .header-left {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header-left img {
+        width: 99px;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .education-header h1 {
+        font-size: 33px;
+    }
+    .about-item-image {
+        width: 100%;
+    }
+    .about-item-text h4::after {
+        content: "";
+        top: 1080px;
+        left: 24px;
+    }
+    .about-item-image {
+        width: 100%;
+        text-align: center;
+    }
+    .about-item-text {
+        width: 100%;
+    }
+    .portfolio-sec {
+        margin-top: 158%;
+    }
+    .portfolio-profile h1 {
+        font-size: 33px;
+    }
+    .skill-header h1 {
+        font-size: 32px;
+    }
+    .empolyment-header h1 {
+        font-size: 32px;
+    }
+    .hireme-header h1 {
+        font-size: 32px;
+    }
+    /* mobile menu start */
+    .header-right ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-right .mobile-menu-check{
+        opacity: 0;
+        visibility: visible;
+        height: 0;
+    }
+    .header-right .mobile-menu-check:checked ~ ul{
+        opacity: 1;
+        visibility: visible ;
+        height: 100%;
+    }
+    .mobile-menu-check {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        position: absolute;
+        top: 92px;
+        left: 19px;
+
+    }
+    .mobile-menu-bar {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        font-size: 30px;
+        color: blanchedalmond;
+        pointer-events: none;
+    }
+    
+    .header-right ul li {
+        display: block;
+        width: 188px;
+        margin-top: 22px;
+    }
+    .header-right ul li a {
+        line-height: 15px;
+    }
+    .header-right ul li ul {
+        left: 99px;
+    }
+    .header-right ul li ul {
+        left: 129px;
+        margin-top: -115px;
+        z-index: 1;
+    }
+    .header-right ul li ul li ul {
+        left: 185px !important;
+    }
+    .header-right ul li ul li {
+        background: rgba(0,0,0,0.1);
+        margin-top: 0;
+        padding: 20px 0;
+    }
+    .header-right ul li:hover > ul{
+        transform: scaleX(1);
+         opacity: 1;
+         visibility: visible;
+        }
+        .header-right ul li ul{
+            opacity: 0;
+            visibility: hidden;
+            transform: scaleX(0);
+            transform-origin: center center;
+         }
+}
+
+@media all and (max-width:768px) {
+    .portfolio-profile h1 {
+        font-size: 24px;
+    }
+    .portfolio-profile h3 {
+        padding: 6px 3px;
+        font-size: 15px;
+    }
+
+    .port-image {
+        width: 48%;
+    }
+    .skill-header h1 {
+        font-size: 25px;
+    }
+    .skill-div {
+        width: 48%;
+    }
+    .counter-content h1 {
+        font-size: 38px;
+    }
+    .education-header h1 {
+        font-size: 23px;
+    }
+    .education-lavel {
+        padding: 11px;
+        width: 100%;
+    }
+    .empolyyment-item {
+        width: 100%;
+        margin-top: 2%;
+        box-shadow: 0px 0px 45px #e7e9f2;
+    }
+    .education-text-left {
+        width: 100%;
+    }
+    .education-text-right {
+        width: 100%;
+    }
+    .education-lavel {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .education-text {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .empolyyment-item {
+        width: 100%;
+        align-items: center;
+    }
+    .empolyment-lavel {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hireme-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .empolyment-header h1 {
+        font-size: 24px;
+    }
+    .hireme-lavel {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-form-left input {
+        width: 100%;
+        margin-left: 8px;
+    }
+    .contact-form-left {
+        width: 100%;
+    }
+    .contact-form-right textarea {
+        width: 100%;
+        margin-left: 8px;
+    }
+    .contact-form-right {
+        width: 100%;
+    }
+    .banner-sec {
+        padding: 7px;
+        margin-top: 0;
+        background-attachment: inherit;
+    }
+    .about-sec {
+        padding: 38px 0;
+        background: #fff;
+    }
+    .portfolio-sec {
+        margin-top: 216%;
+    }
+    .hireme-header h1 {
+        font-size: 20px;
+        width: 400px;
+    }
+    .education-image img {
+        height: 60%;
+    }
+    .education-image {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:590px) {
+    .skill-div {
+        width: 100%;
+    }
+    .skill-header h1 {
+        font-size: 20px;
+    }
+    .education-header h1 {
+        font-size: 16px;
+    }
+    .education-sec {
+        padding: 70px 0;
+    }
+    .port-image {
+        width: 100%;
+    }
+    .portfolio-name {
+        position: absolute;
+        top: 92px;
+        left: 195px;
+    }
+    .portfolio-item-bar ul li {
+        font-size: 11px;
+    }
+    .about-item-text h4::after {
+        content: "";
+        top: 933px;
+        left: 24px;
+    }
+    .banner-text {
+        text-align: center;
+        margin-top: 83px;
+    }
+    .banner-sec h1 {
+        font-size: 39px;
+    }
+    .button {
+        padding: 9px 5px;
+        font-size: 16px;
+    }
+    .about-item-text h3 {
+        font-size: 20px;
+    }
+    .about-item-text p {
+        font-size: 15px;
+    }
+    .education-image img {
+        height: 100%;
+    }
+}
+@media all and (max-width:420px) {
+    .about-item-text h4::after {
+        content: "";
+        top: 661px;
+    }
+    .about-item-text p {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .portfolio-name {
+        position: absolute;
+        top: 92px;
+        left: 106px;
+    }
+    .counter-content h1 {
+        font-size: 60px;
+    }
+    .counter-item {
+        margin-bottom: 20px;
+    }
+    .education-text {
+        padding: 7px 6px;
+    }
+    .education-text-right p {
+        width: 100%;
+        line-height: 1.2;
+    }
+    .education-text-left h5 {
+        font-size: 11px;
+    }
+    .education-text-left span {
+        font-size: 10px;
+    }
+    .counter-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .empolyment-header h1 {
+        font-size: 11px;
+    }
+    .empolyment-header h3 {
+        padding: 8px 9px;
+        margin-bottom: 9px;
+        font-size: 15px;
+    }
+    .empolyment-lavel {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -48px;
+    }
+    .empolyyment-item p {
+        line-height: 1rem;
+        color: #606060;
+        font-size: 11px;
+    }
+    .flex-item h4 {
+        font-size: 11px;
+    }
+    .prize-lavel ul li img {
+        width: 150px;
+        margin-left: -20px;
+    }
+    .hireme-header h1 {
+        font-size: 12px;
+        width: 400px;
+    }
+    .hireme-header h3 {
+        padding: 8px 9px;
+        font-size: 15px;
+    }
+    .hireme-item:nth-child(1) span {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .hireme-item:nth-child(2) span {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .hireme-item:nth-child(3) span {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .hireme-item span {
+        font-size: 20px;
+    }
+    .hireme-item {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .hireme-item p {
+        font-size: 11px;
+    }
+    .hireme-around {
+        margin-top: 20px;
+        padding: 5px 5px;
+    }
+    .contact-form-left {
+        width: 96%;
+    }
+    .contact-form-right {
+        width: 96%;
+    }
+    .about-button {
+        padding: 10px 5px;
+    }
+    .hireme-lavel {
+        padding-top: 0;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+@media all and (max-width:370px) {
+    .empolyyment-item {
+        width: 150%;
+        margin-left: 0;
+    }
+   
+    .about-me {
+        font-size: 12px;
+    }
+    .about-item-text h3 {
+        font-size: 14px;
+    }
+    .about-item-text p {
+        font-size: 12px;
+    }
+    .portfolio-profile h1 {
+        font-size: 15px;
+    }
+    .portfolio-item-bar ul li {
+        font-size: 7px;
+    }
+    .about-item-text h4 {
+        font-size: 13px;
+        margin-top: 7px;
+        padding: 5px 10px;
+    }
+    .about-item-text h4::after {
+        content: "";
+        top: 557px;
+    }
+    .counter-item {
+        width: 100%;
+        cursor: pointer;
+    }
+    .education-header h3 {
+        padding: 8px 6px;
+        font-size: 11px;
+    }
+    .skill-header h1 {
+        font-size: 12px;
+    }
+    .skill-header h3 {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+    .counter-sec {
+        padding: 40px 0;
+        margin-top: 30px;
+    }
+    /* .footer-top a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    } */
+    .about-button {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .contact-form-right textarea {
+        height: 159px;
+        padding: 11px 12px;
+    }
+    .footer-sec {
+        padding: 15px 0;
+    }
+    .contact-form {
+        padding-bottom: 56px;
+    }
+    .contact-button {
+        margin-top: -82px;
+    }
+    .counter-content h1 {
+        font-size: 28px;
+    }
+    .employment-sec {
+        padding: 70px 0;
+    }
+    .portfolio-sec {
+        margin-top: 307%;
+    }
+    .education-text-right p {
+        font-size: 11px;
+    }
+    .banner-text {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .banner-text img {
+        width: 36%;
+    }
+    .banner-text p {
+        font-weight: 300;
+        margin-bottom: 41px;
+        font-size: 15px;
+    }
+    .about-sec {
+        padding: 8px 0;
+        background: #fff;
+    }
+}
